@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>User-Data</title>
+</head>
+
+<table>
+    <tr>
+        <td><h4>User Name:</h4></td>
+        <td><h4 th:text="${user.name}"></h4></td>
+    </tr>
+    <tr>
+        <td><h4>Email ID: </h4></td>
+        <td><h4 th:text="${user.email}"></h4></td>
+    </tr>
+
+    <tr>
+        <td><h4>ID: </h4></td>
+        <td><h4 th:text="${user.id}" ></h4></td>
+    </tr>
+    <!--<tr>
+        <td><h4>Content: </h4></td>
+        <td><h4 th:text="${user.content}" ></h4></td>
+    </tr>-->
+
+</table>
+
+</html>
